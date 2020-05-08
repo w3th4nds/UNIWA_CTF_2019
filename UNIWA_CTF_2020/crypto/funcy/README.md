@@ -1,7 +1,7 @@
 # Funcy Crypto challenge
 
-First of all, we can see that the challenge is written in `python2.7`. So, i'm gonna use `python2.7` in order to solve it, but doing it in `python3` is just fine. 
-We see that there is a `flag` var with a `dummy` value, and a **fake** key. Then there is loop that encrypts each character of the **real** flag with. 
+First of all, we can see that the challenge is written in `python2.7`. So, i'm gonna use `python2.7` in order to solve it, but doing it in `python3` is just fine.  
+We see that there is a `flag` var with a `dummy` value, and a **fake** key. Then there is loop that encrypts each character of the **real** flag with.  
 It takes the character, convert it to `hex`, then convert it to `integer` and `XORS`	the character with the `real` key. After that, the whole `encrypted`message is converted to `base64`.  
 The final result is: `NjAzOTMyNjI0MDE4NDc2MDM5NDI1NDYxMzM5MzYxNTQ0MjMzOTMzNzM3MjA=`.  
 
