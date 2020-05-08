@@ -79,6 +79,7 @@ void sub_1312(int param_1)
   exit(1);
 }
 ```
+After we pass the first test, we need to provide a flag to be validated. Our flag is stored in `local_17`.  
 We can see that in order to get the `Congrats` message, all the above comparisons must be true.  
 So, we can either do this inside `gdb` or the easiest way is to just take each "comparison" and rearrange it according to the vatiables.  
 > char local_17; // 1
