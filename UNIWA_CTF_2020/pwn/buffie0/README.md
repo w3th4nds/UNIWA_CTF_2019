@@ -1,6 +1,6 @@
 # buffie0 Pwn challenge
 
-First of all, with `$file` we see that the binary is a `ELF 64-bit LSB executable`. Let's open `ghidra` to analyze it.  
+First of all, with `file` we see that the binary is a `ELF 64-bit LSB executable`. Let's open `ghidra` to analyze it.  
 The `main` function looks like this:  
 
 ```c
