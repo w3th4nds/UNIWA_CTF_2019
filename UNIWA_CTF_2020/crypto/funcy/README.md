@@ -1,4 +1,4 @@
-# funcy Crypto challenge
+# funcy - Crypto challenge
 
 First of all, we can see that the challenge is written in `python2.7`. So, i'm gonna use `python2.7` in order to solve it, but doing it in `python3` is just fine.  
 We see that there is a `flag` var with a `dummy` value, and a **fake** key. Then there is loop that encrypts each character of the **real** flag with.  
